@@ -11,7 +11,7 @@ riwayat_list = [[], []]
 
 print("\n" * 50)
 print("=" * 60)
-print("BANK XYZ - Automated Teller Machine".center(60))
+print("BANK BERKOM - Automated Teller Machine".center(60))
 print("Layanan 24/7".center(60))
 print("=" * 60)
 print()
