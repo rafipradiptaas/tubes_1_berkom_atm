@@ -238,7 +238,7 @@ while True:
     elif pilihan == "7":
         print("\n" * 50)
         print("=" * 60)
-        print("Terima kasih telah menggunakan ATM BANK XYZ".center(60))
+        print("Terima kasih telah menggunakan ATM BANK BERKOM".center(60))
         print("Jaga keamanan PIN Anda".center(60))
         print("=" * 60)
         break
