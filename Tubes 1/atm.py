@@ -1,6 +1,16 @@
 #ATM kami
 #tes_push_1
 # SIMULASI ATM SEDERHANA TANPA FUNGSI
+#=============================
+# KAMUS GLOBAL
+# =============================
+# pin_list      : list of string  - menyimpan PIN pengguna
+# nama_list     : list of string  - menyimpan nama pengguna
+# norek_list    : list of string  - menyimpan nomor rekening
+# saldo_list    : list of int     - menyimpan saldo pengguna
+# riwayat_list  : list of list    - menyimpan riwayat transaksi
+# user_index    : int             - index user yang sedang login
+# max_attempts  : int             - maksimal percobaan login
 
 # Deklarasi Variabel  
 pin_list = ["123456", "654321"]
@@ -76,12 +86,11 @@ while True:
     print("2. Tarik Tunai")
     print("3. Setor Tunai")
     print("4. Transfer")
-    print("5. Ubah PIN")
-    print("6. Riwayat Transaksi")
-    print("7. Keluar")
+    print("5. Riwayat Transaksi")
+    print("6. Keluar")
     print("=" * 60)
 
-    pilihan = input("Pilihan Anda (1-7): ")
+    pilihan = input("Pilihan Anda (1-6): ")
     print("\n")
 
     # =======================
@@ -192,32 +201,9 @@ while True:
                 input("\nTekan Enter untuk kembali...")
 
     # =======================
-    # UBAH PIN
-    # =======================
-    elif pilihan == "5":
-        print("=" * 60)
-        print("UBAH PIN".center(60))
-        print("=" * 60)
-        pin_lama = input("Masukkan PIN lama: ")
-        if pin_lama != pin_list[user_index]:
-            print("\nERROR: PIN lama salah!")
-        else:
-            pin_baru = input("Masukkan PIN baru (6 digit): ")
-            if len(pin_baru) != 6 or not pin_baru.isdigit():
-                print("\nERROR: PIN harus 6 digit angka!")
-            else:
-                pin_konfirmasi = input("Konfirmasi PIN baru: ")
-                if pin_baru != pin_konfirmasi:
-                    print("\nERROR: PIN baru tidak cocok!")
-                else:
-                    pin_list[user_index] = pin_baru
-                    print("\nPIN BERHASIL DIUBAH!")
-        input("Tekan Enter untuk kembali...")
-
-    # =======================
     # RIWAYAT TRANSAKSI
     # =======================
-    elif pilihan == "6":
+    elif pilihan == "5":
         print("=" * 60)
         print("RIWAYAT TRANSAKSI".center(60))
         print("=" * 60)
@@ -235,7 +221,7 @@ while True:
     # =======================
     # KELUAR
     # =======================
-    elif pilihan == "7":
+    elif pilihan == "6":
         print("\n" * 50)
         print("=" * 60)
         print("Terima kasih telah menggunakan ATM BANK BERKOM".center(60))
