@@ -14,7 +14,7 @@
 
 # Deklarasi Variabel  
 pin_list = ["123456", "654321"]
-nama_list = ["Jonathan Lewie", "Rafi Pradipta"]
+nama_list = ["Jonathan Lewie", "Rafi Pradipta"] 
 norek_list = ["19625126", "19625122"]
 saldo_list = [5000000, 3000000]
 riwayat_list = [[], []]
