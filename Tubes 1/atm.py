@@ -14,13 +14,22 @@
 
 # Deklarasi Variabel  
 pin_list = ["123456", "654321"]
-nama_list = ["Budi Santoso", "Siti Aminah"]
-norek_list = ["1234567890", "0987654321"]
+nama_list = ["Jonathan Lewie", "Rafi Pradipta"] 
+norek_list = ["19625126", "19625122"]
 saldo_list = [5000000, 3000000]
 riwayat_list = [[], []]
 
 print("\n" * 50)
 print("=" * 60)
+print("\n")
+print("██████╗  █████╗ ███╗   ██╗██╗  ██╗    ███████╗".center(60))
+print("██╔══██╗██╔══██╗████╗  ██║██║ ██╔╝    ╚════██║".center(60))
+print("██████╔╝███████║██╔██╗ ██║█████╔╝         ██╔╝".center(60))
+print("██╔══██╗██╔══██║██║╚██╗██║██╔═██╗        ██╔╝ ".center(60))
+print("██████╔╝██║  ██║██║ ╚████║██║  ██╗       ██║  ".center(60))
+print("╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝       ╚═╝  ".center(60))
+print("\n")
+print("--Automated Teller Machine--".center(60))
 print("BANK BERKOM - Automated Teller Machine".center(60))
 print("Layanan 24/7".center(60))
 print("=" * 60)
@@ -224,6 +233,15 @@ while True:
     elif pilihan == "6":
         print("\n" * 50)
         print("=" * 60)
+        print("Terima kasih telah menggunakan ".center(60))
+        print("\n")
+        print("██████╗  █████╗ ███╗   ██╗██╗  ██╗    ███████╗".center(60))
+        print("██╔══██╗██╔══██╗████╗  ██║██║ ██╔╝    ╚════██║".center(60))
+        print("██████╔╝███████║██╔██╗ ██║█████╔╝         ██╔╝".center(60))
+        print("██╔══██╗██╔══██║██║╚██╗██║██╔═██╗        ██╔╝ ".center(60))
+        print("██████╔╝██║  ██║██║ ╚████║██║  ██╗       ██║  ".center(60))
+        print("╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝       ╚═╝  ".center(60))
+        print("\n")
         print("Terima kasih telah menggunakan ATM BANK BERKOM".center(60))
         print("Jaga keamanan PIN Anda".center(60))
         print("=" * 60)
