@@ -30,6 +30,7 @@ print("██████╔╝██║  ██║██║ ╚████║�
 print("╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝       ╚═╝  ".center(60))
 print("\n")
 print("--Automated Teller Machine--".center(60))
+print("BANK BERKOM - Automated Teller Machine".center(60))
 print("Layanan 24/7".center(60))
 print("=" * 60)
 print()
@@ -207,7 +208,7 @@ while True:
                         else:
                             print("\nTransfer dibatalkan.")
                 input("\nTekan Enter untuk kembali...")
-
+    
     # =======================
     # RIWAYAT TRANSAKSI
     # =======================
@@ -241,6 +242,7 @@ while True:
         print("██████╔╝██║  ██║██║ ╚████║██║  ██╗       ██║  ".center(60))
         print("╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝       ╚═╝  ".center(60))
         print("\n")
+        print("Terima kasih telah menggunakan ATM BANK BERKOM".center(60))
         print("Jaga keamanan PIN Anda".center(60))
         print("=" * 60)
         break
