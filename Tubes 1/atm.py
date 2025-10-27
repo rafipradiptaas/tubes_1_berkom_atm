@@ -199,7 +199,7 @@ while True:
                         else:
                             print("\nTransfer dibatalkan.")
                 input("\nTekan Enter untuk kembali...")
-
+    
     # =======================
     # RIWAYAT TRANSAKSI
     # =======================
